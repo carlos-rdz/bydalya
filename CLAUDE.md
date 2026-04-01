@@ -117,6 +117,21 @@ Products are in `data/products.json`. Each product has: slug, name, price (in ce
 
 To add a new product: add an entry to the JSON and put the image in `public/products/`.
 
+## CURRENT DESIGN DIRECTION (from Dalya's latest feedback)
+Dalya wants the site to feel like these brands:
+- **Andmore** ("MAKE IT POP MORE!") — products woven INTO the typography, objects sitting between letters, on top of text. Text and products are intertwined, not separated.
+- **Sereth** ("VERY MUCH A VIBE NOT A TREND") — bold orange/red hero with cutout photos scattered behind text, flower icon marquee strip, products on colored background cards below
+- **Korean design grid style** — bold flat color blocks, each product card on a different colored background (red, yellow, salmon), checkerboard/pattern textures
+- **"Extra Chunk Please" style** — text stacked vertically with each word its own line, different color treatments per line
+
+Key principles from her feedback:
+- Products should be PART of the design, not just listed in a grid
+- Every section should be a bold, distinct color block
+- The font mixing (Mocha Bubble + Mocha Sans alternating letters) is working well
+- She does NOT want: hippie vibes, kidcore stickers, corporate/minimal, anything "basic"
+- She DOES want: collage energy, bold colors, products as decoration, fashion editorial feeling
+- Current stickers (stars, dots, X marks, rings) are fine — the old ones (crowns, gems, lightning, hearts, smileys, flowers) were too childish
+
 ## What's NOT Done Yet
 - Stripe is in test mode (placeholder keys in .env.local) — needs real keys to accept payments
 - Only 16 of her 55 Etsy products are on the site
